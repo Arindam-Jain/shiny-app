@@ -7,7 +7,7 @@ shinyUI(fluidPage(
   # Header Panel : Create a header panel containing an application title.
   titlePanel(title = "Hello Shiny, this is title panel"),
   # SidebarLayout():It creates a layout with a sidebar and main area. 
-  sidebarLayout(
+  sidebarLayout(position = "right",
     # Sidebar panel
     sidebarPanel(h2("this is the sidebarpanel for input widgets 2"), 
                  h3("this is the sidebarpanel for input widgets 3"),
